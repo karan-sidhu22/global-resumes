@@ -1,0 +1,11 @@
+import Image from "next/image";
+import heroImage from "../assets/hero-image.jpg"; // or "/hero-image.jpg" if in public
+
+export default function Index() {
+  return (
+    <div>
+      <h1>Welcome to Global Resumes</h1>
+      <Image src={heroImage} alt="Hero" width={800} height={400} />
+    </div>
+  );
+}
